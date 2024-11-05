@@ -21,5 +21,4 @@ from polls.urls import api
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("api/", api.urls)
-    
 ]
